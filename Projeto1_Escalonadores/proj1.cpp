@@ -98,7 +98,6 @@ void SJF(vector <Processo> filaProcessos){
 		tExec += p.tPico;
 		tRetorno += tExec - p.tChegada;
 	
-
 	}
 
 	float mediaRetorno = (tRetorno/tamFila);

@@ -28,7 +28,7 @@ int BuscaMemo1(vector <int> ar, int pagina){ //usado para o OTM
 
 
 vector <int> LerArquivo(FILE *arq){
-	arq = fopen("entrada2.txt", "rt");
+	arq = fopen("entrada.txt", "rt");
 	int pAtual;
 
 	vector<int> p;
